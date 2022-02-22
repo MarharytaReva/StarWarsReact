@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+.flexD{
+  margin: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.flexBtn{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+ 
+}
+.card{
+  border: lightgrey solid 1px;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+  max-width: 15rem;
+}
+
+#blur, .general{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: black;
+  opacity: 80%;
+  
+  z-index: 1;
+}
+
+#infoForm{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  padding: 20%;
+  padding-top: 5%;
+  
+  z-index: 10;
+  overflow-y: auto;
+}
+#innerDiv{
+  background-color: white;
+  padding: 10px;
+}
+#close{
+  font-weight: bolder;
+  border: none;
+  float: right;
+  width: fit-content;
+  padding: 3px;
+}
+.infoList{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
